@@ -11,7 +11,20 @@ namespace Module1Exercise1
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            
 
+        }
+
+        protected void Submit_button(object sender, EventArgs e)
+        {
+            if (Page.IsValid)
+            {
+                string full_name = fullName.Text;
+                string user_email = email.Text;
+                string user_age = age.Text;
+
+                result.Text = $"{full_name} \n {user_email} \n {user_age}";
+            }
         }
     }
 }

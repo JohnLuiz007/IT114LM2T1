@@ -1,0 +1,86 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.Master.cs" Inherits="Module2Topic1.Site1" %>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Simple Site</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #444;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+            margin: 0 5px;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Your Simple Site</h1>
+    </header>
+
+    <nav>
+        <a href="Exercise4.aspx"> Exercise 4</a>
+        <a href="Exercise3.aspx">Exercise 3</a>
+        <a href="Exercise1.aspx"> Exercise 1</a>
+        <a href="Exercise2.aspx"> Exercise 2</a>
+    </nav>
+
+    <main>
+        <h1>What the sites does?</h1> 
+        <h4>Exercise 1- Music Player</h4> 
+        <h4>Exercise 2- Festival Registration</h4>
+        <h4>Exercise 3- Grade Calculator</h4> 
+        <h4>Exercise 4- Club Registration</h4> 
+        <h5>Comparing Plain HTML to ASP.NET WebForms:</h5>
+        <p>Plain HTML is static and limited to client-side interactivity, while ASP.NET WebForms enables dynamic, data-driven web applications with server-side logic and rich controls. HTML is server-independent, while WebForms relies on server-side processing for dynamic content.</p>
+
+        <h5>Implementing Logic in Code Behind vs. JavaScript:</h5>
+        <p>Code Behind (C#) is suitable for server-side operations, managing state, and processing form submissions, while JavaScript is used for client-side interactivity, dynamic content manipulation, and asynchronous operations. Code Behind handles server-dependent tasks, and JavaScript enhances the user experience by executing logic on the client side.</p>
+
+        <h5>Postbacks:</h5>
+        <p>In ASP.NET WebForms, a postback submits the entire page to the server, triggering events like button clicks for server-side logic execution. Postbacks are essential for handling user input, updating the page based on interactions, and maintaining control state using ViewState. They provide a mechanism for seamless interaction between the client and server in a WebForms application.</p>
+
+    </main>
+
+    <footer>
+        &copy; Copyright Gonzaga 2024
+    </footer>
+
+</body>
+</html>
